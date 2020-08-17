@@ -10,7 +10,7 @@ class PlacesLocation {
     @required this.latitude,
     @required this.longitude,
     this.address,
-  })
+  });
 }
 
 class Places {
