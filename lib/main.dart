@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import './screens/places_list_screens.dart';
 void main() {
   runApp(MyApp());
 }
@@ -14,19 +14,8 @@ class MyApp extends StatelessWidget {
         accentColor: Colors.amber,
 
       ),
-      home:MyHome()
+      home:PlacesListScreen()
     );
   }
 }
 
-class MyHome extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Greate Places'),
-      ),
-      body: Container(),
-    );
-  }
-}
